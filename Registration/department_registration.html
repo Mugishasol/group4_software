@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Responsive Regisration Form </title> 
+</head>
+<body>
+    <div class="container">
+        <header class="head1">department registration form</header>
+
+        <form class="frm"action="#">
+            <div class="form first">
+                <div class="details personal">
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>department_name</label>
+                            <input type="text" placeholder="Enter department_name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>asset_allocation</label>
+                            <input type="text" placeholder="Enter asset_allocation" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>date</label>
+                            <input type="date" placeholder="Enter date" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+
+                        <div class="input-field">
+                            <label>Asset_id</label>
+                            <select name="dept_id" id="#">
+                                <option value="">ict</option>
+                                <option value="">food</option>
+                                <option value="">const</option>
+                            </select>
+                        </div>
+               
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+            
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
